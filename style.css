@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    overflow:hiddne;
+}
+
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:45px;
+    padding:5px;
+}
+.color-orange{
+    color:orange;
+}
+.flexible-container{
+    display:flex;
+}
+.half-width img{
+    width:80%;
+    padding:30px;
+
+}
+.btn  {
+    text-decoration:none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 30px;
+    color:#fff;
+    border-radius:7px;
+}
+
+.banner-top{
+    background-image:url(img/top-banner.png);
+    background-repeat:no-repeat;
+}
+.exp{
+    background-image:url(img/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+
+    
+}
+h4{
+    color:orange;
+    font-size:35px;
+}
+.shadoww{
+    width:40%;
+    justify-content:center;
+    margin:0 auto;
+    box-shadow:10px 20px 20px gray;
+    text-align:center;
+    padding:10px;
+
+   
+}
+p{
+    text-align:center;
+}
+.border{
+    border-left:5px;
+    border-style:solid;
+    background-image:gradient(blue,cyan)
+}
+.border1{
+    border-left:5px;
+    border-style:solid;
+    background-image:gradient(blue,cyan)
+}
+.color-x{
+    background-color:#ddd;
+}
+.color-y{
+    background-color:#240, 213, 234
+}
+.color-z{
+    background-color:rgb(212, 50, 145);
+    color:white
+}
